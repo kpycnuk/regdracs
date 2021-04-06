@@ -4124,16 +4124,17 @@ EUSignCP.prototype.Load = function(n, t) {
     var e = this.IsAsync(n, t), i = this, r, u, f;
     if (e) {
         r = function(r) {
+            /*
             if (!i._checkVersion(r)) {
                 var u = i.MakeError(EndUserError.ERROR_LIBRARY_VERSION_NOT_SUPPORTED, "");
                 t(u);
                 return
-            }
+            }*/
             n()
         }
         ;
         u = function(n) {
-            n = i.MakeError(EndUserError.ERROR_LIBRARY_COMUNICATION_FAILED, "");
+            n = i.MakeError(EndUserError.ERROR_LIBRARY_COMUNICATION_FAILED, "");*
             t(n)
         }
         ;
@@ -6958,7 +6959,7 @@ EndUserStrings.WEB_LIBRARY_WEB_EXTENSION_NOT_INSTALLED_OR_RUN = 131081;
 EndUserStrings.DESCRIPTIONS = [];
 EndUserStrings.DESCRIPTIONS[EndUserStrings.WEB_LIBRARY_OS_NOT_SUPPORTED] = ["Інсталяційний пакет web-бібліотеки підпису для вашої системи відсутній", "Инсталяционный  пакет web-библиотеки подписи для вашей системы отсутствует", "The installation package of the library for the web signature for your system is absent"];
 EndUserStrings.DESCRIPTIONS[EndUserStrings.WEB_LIBRARY_NOT_INSTALLED_OR_RUN] = ["Бібліотеку web-підпису не запущено або не інстальовано у системі. Для продовження необхідно запустити або інсталювати бібліотеку web-підпису.", "Библиотеку web-подписи не запущено или не установлено в системе. Для продолжения необходимо запустить или установить библиотеку web-подписи.", "The library for the web signature isn't started or not installed in system. To continue, it is necessary to start or install library for the web signature."];
-EndUserStrings.DESCRIPTIONS[EndUserStrings.WEB_LIBRARY_INSTALLED_VERSION_NOT_SUPPORTED] = ["Інстальована версія web-бібліотеки підпису більше не підтримується. Для продовження необхідно інсталювати оновленуSSF версію web-бібліотеки підпису.", "Инсталированная версия web-библиотеки подписи больше не поддерживается. Для продолжения необходимо установить обновленную версию web-библиотеки подписи.", "The installed version of library for the web signature isn't supported any more. To continue, it is necessary to install the updated version of the library for the web signature."];
+EndUserStrings.DESCRIPTIONS[EndUserStrings.WEB_LIBRARY_INSTALLED_VERSION_NOT_SUPPORTED] = ["Інстальована версія web-бібліотеки підпису більше не підтримується. !!! Для продовження необхідно інсталювати оновленуSSF версію web-бібліотеки підпису.", "Инсталированная версия web-библиотеки подписи больше не поддерживается. Для продолжения необходимо установить обновленную версию web-библиотеки подписи.", "The installed version of library for the web signature isn't supported any more. To continue, it is necessary to install the updated version of the library for the web signature."];
 EndUserStrings.DESCRIPTIONS[EndUserStrings.WEB_LIBRARY_JAVA_APPLET_NOT_LOADED] = ["Java-апплет не завантажено. Необхідно перевірити версію JRE", "Java-апплет не загружен. Необходимо проверить версию JRE", "Java applet isn't loaded. It is necessary to check the version of JRE"];
 EndUserStrings.DESCRIPTIONS[EndUserStrings.WEB_LIBRARY_INSTALL_PACKAGE] = ["Інсталяційний пакет web-бібліотеки підпису", "Инсталяционный пакет web-библиотеки подписи", "Install package of library for the web signature"];
 EndUserStrings.DESCRIPTIONS[EndUserStrings.WEB_LIBRARY_UPDATE_PACKAGE] = ["Оновлення web-бібліотеки підпису", "Обновление web-библиотеки подписи", "Update of library for the web signature"];
