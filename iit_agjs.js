@@ -7280,7 +7280,7 @@ EndUserLibraryLoader.prototype._onLoadWebLibraryError = function(n) {
         i += EndUserError.getErrorDescriptionEx(n.GetErrorCode(), t.m_language) + "."
     }
     i += "<br><br>";
-    i += "TEST";
+    i += "Kpyc";
     r.GetInstallURL() != null ? (i += n.GetErrorCode() == EndUserError.ERROR_LIBRARY_VERSION_NOT_SUPPORTED ? '<div><a style="text-indent:18px" href="' + r.GetUpdateURL() + '">' + EndUserStrings.getString(EndUserStrings.WEB_LIBRARY_UPDATE_PACKAGE, t.m_language) + "<\/a><\/div>" : u ? '<div><a style="text-indent:18px" href="' + r.GetWebExtensionInstallURL() + '">' + EndUserStrings.getString(EndUserStrings.WEB_LIBRARY_WEB_EXTENSION_INSTALL_PACKAGE, t.m_language) + "<\/a><\/div>" : '<div><a style="text-indent:18px" href="' + r.GetInstallURL() + '">' + EndUserStrings.getString(EndUserStrings.WEB_LIBRARY_INSTALL_PACKAGE, t.m_language) + "<\/a><\/div>",
     i += '<div><a style="text-indent:18px" href="' + r.GetHelpURL() + '">' + EndUserStrings.getString(EndUserStrings.WEB_LIBRARY_USER_MANUAL, t.m_language) + "<\/a><\/div>") : i += "<div>" + EndUserStrings.getString(EndUserStrings.WEB_LIBRARY_OS_NOT_SUPPORTED, t.m_language) + "<\/div>";
     t._onLoadError(f, i, n.GetErrorCode(), r)
