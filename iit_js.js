@@ -254,7 +254,7 @@ function () {
                 });
             return;
         } else {
-            console.log('euSignInitialize_busy init')
+            console.log('euSignInitialize_busy initT')
             me.euSignInitialize_busy = new Promise((resolve, reject) => {
                 p_resolve = (res) => {
                     me.euSignInitialize_busy = null;
