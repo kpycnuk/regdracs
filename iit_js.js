@@ -1370,5 +1370,4 @@ function CheckAuthDevice(setts) {
         console.error("CheckAuthDevice err", err);
         deviceProblemProc("Проблема з крипто бібліотекою. </br>" + (err && err.message));
     }, true);
-}
-;
+};
