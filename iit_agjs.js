@@ -4134,7 +4134,7 @@ EUSignCP.prototype.Load = function(n, t) {
         }
         ;
         u = function(n) {
-            n = i.MakeError(EndUserError.ERROR_LIBRARY_COMUNICATION_FAILED, "");*
+            n = i.MakeError(EndUserError.ERROR_LIBRARY_COMUNICATION_FAILED, "");
             t(n)
         }
         ;
