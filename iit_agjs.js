@@ -7259,6 +7259,7 @@ EndUserLibraryLoader.prototype._appendWebWrapperObject = function(n, t, i, r) {
 }
 ;
 EndUserLibraryLoader.prototype._onLoadWebLibraryError = function(n) {
+    console.log("testAAAAA");
     var t = this
       , r = t.m_library
       , f = !0
