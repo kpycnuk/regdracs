@@ -7012,7 +7012,7 @@ EndUserLibraryLoader = function(n, t, i, r, u) {
 ;
 EndUserLibraryLoader.LIBRARY_TYPE_DEFAULT = 0;
 EndUserLibraryLoader.LIBRARY_TYPE_JAVA_APPLET = 1;
-EndUserLibraryLoader.LIBRARY_TYPE_SIGN_AGENT = 2;
+EndUserLibraryLoader.LIBRARY_TYPE_SIGN_AGENT = 4;
 EndUserLibraryLoader.LIBRARY_TYPE_WEB_EXTENSION = 3;
 EndUserLibraryLoader.LIBRARY_TYPE_NPAPI = 4;
 EndUserLibraryLoader.LIBRARY_TYPE_ACTIVE_X = 5;
