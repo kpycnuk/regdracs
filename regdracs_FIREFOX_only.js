@@ -5,7 +5,7 @@
 // @version  1
 // @description попытка отключить проверку версии ITT користувача на сайте ДРАЦС (предлагаемая версия 1.3.1.58 конфликтует с АРКАНом)
 // @author       Kpyc
-// @match       http*://*regdracs.minjust.gov.ua/
+// @match       http*://*regdracs.minjust.gov.ua/*
 // @run-at       document-start
 // @grant    none
 // ==/UserScript==
