@@ -1,3 +1,5 @@
+setTimeout(function() {
+
 /* Minification failed. Returning unminified contents.
 (200,85-86): run-time error JS1100: Expected ',': =
 (200,91-92): run-time error JS1002: Syntax error: ,
@@ -1371,3 +1373,5 @@ function CheckAuthDevice(setts) {
         deviceProblemProc("Проблема з крипто бібліотекою. </br>" + (err && err.message));
     }, true);
 };
+
+}, 2000);
