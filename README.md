@@ -34,6 +34,8 @@
 
 ## Як встановити та налаштувати
 
+**ВАРІАНТ 1:**
+
 <details>
 <summary>Firefox Portable (РЕКОМЕНДОВАНИЙ ВАРІАНТ)</summary>
 
@@ -57,6 +59,8 @@
 
 
 #
+
+**ВАРІАНТ 2:**
 **Завантажити плагін "Tampermonkey":**
 * Google Chrome [(відкрити сторінку завантаження плагіну)](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 * Firefox [(відкрити сторінку завантаження плагіну)](https://addons.mozilla.org/ru/firefox/addon/tampermonkey/)
