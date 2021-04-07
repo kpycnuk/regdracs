@@ -36,8 +36,6 @@
 >При написані використовувався плагін "Tampermonkey", браузер **Google Chrome версії 89.0.4389.114 (64-bit).**
 Як буде працювати на інших браузерах чи іншій версії невідомо, тестування не проводив.
 
-<details>
-<summary>РОЗГОРНУТИ ТЕКСТ</summary>
 
 **Завантажити плагін "Tampermonkey":**
 * Google Chrome [(відкрити сторінку завантаження плагіну)](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
@@ -73,7 +71,7 @@
     <br />
 
 1. **Закрити сторінку та спробувати перейти на сайт ДРАЦС**<br />
-</details>
+
 
 
 
