@@ -59,7 +59,7 @@
     <br />
 
 1. **Повністю замінити текст скрипту на скопійований за** [**посиланням**](https://raw.githubusercontent.com/kpycnuk/regdracs/main/regdracs_TM.js) *(для відкриття у новій вкладці зажміть Ctrl+клік мишкою)*<br />
-   ![](images/4.jpg)
+   <img src="images/4.jpg" alt="" style="max-width:100%;" width="500px">
     <br />
 
 1. **В меню натиснути на "File" та з випадаючого меню обрати "Save"**<br />
