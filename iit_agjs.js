@@ -1,5 +1,3 @@
-setTimeout(function() {
-    
 function InheritObject(n, t) {
     n.prototype = Object.create(t.prototype);
     n.prototype.constructor = n
@@ -6528,5 +6526,3 @@ var CloseAlertButtonID = "CloseAlertButton"
         return n.replace(new RegExp("<a ","g"), '<img src="./Scripts/eujsag/Arrow.png"><\/img><a class="imgRef"')
     }
 })
-
-}, 2000);
