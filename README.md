@@ -43,7 +43,7 @@
 
 **Що необіхдно:**
 1. **У разі наявності в системі вже встановленого EUSignWebInstall, що пропонує ДРАЦС, видалити та встановити той, з яким працювали до цього (АРКАН, МВС, інший)**
-1. Завантажити архів з Firefox Portable [DRACS.zip](https://mega.nz/file/CJkhWaAL#1q8JvK8aJaBCuIxAL9wPCUcOrbsWyzYDFdXOGWCwUas)
+1. Завантажити архів з Firefox Portable [DRACS.zip](https://mega.nz/file/WI1hFKRS#7KDifhBIFj7X6CHAX0JUhdCPZVCEElLpIorS02D_K7M)
 1. Розархівувати так, щоб шлях до файлу "FirefoxPortable.exe" був таким: **C:\DRACS\FirefoxPortable\FirefoxPortable.exe**
 1. Якщо необхідно, створіть ярлик на робочому столі
 1. Запустити портативну версію Firefox та працювати з ДРАЦС з її використанням
