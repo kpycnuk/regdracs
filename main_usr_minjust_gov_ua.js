@@ -43489,6 +43489,8 @@
         return e(t)
       },
       X.prototype._checkVersion = function (t) {
+          /*
+          проверю отключение проверки версии
         console.trace();
         try {
           var e = this.classVersion;
@@ -43497,7 +43499,7 @@
           for (var n = 0; n < t.length; n++) if (parseInt(e[n]) > parseInt(t[n])) return !1
         } catch (r) {
           return !1
-        }
+        }*/
         return !0
       },
       X.prototype._stringToBytes = function (t, e) {
